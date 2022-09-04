@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: url('./images/background.png');
+  background-size: 100% 100%;
+  font-family: Roboto;
+  color: lightgray;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Rowdies;
+  font-size: 40px;
+  margin: -80px;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+.logo_letters {
+  text-align: left;
+}
+
+.logo_numbers {
+  margin-top: -60px;
+  letter-spacing: 18px;
+}
+
+.button {
+  width: 155px;
+  font-family: Rowdies;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  border-radius: 25px;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px white;
+}
+
+.score-n-round {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-family: Rowdies;
+}
+
+.question {
+  padding: 0 40px 0 40px;
+  width: 650px;
+  height: 80px;
+  border-radius: 4px;
+  color: white;
+}
+
+.options {
+  display: flex;
+  text-align: left;
+  color: white;
+}
+
+.option {
+  width: 342px;
+  height: 35px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.optionsLeft {
+  margin: 6px 3px 0 0;
+}
+
+.optionsRight {
+  margin: 6px 0 0 3px;
+}
+
+.blue {
+  background-image: linear-gradient(to bottom right,
+  rgb(0, 65, 130), rgb(0, 115, 200), rgb(0, 65, 130));
+}
+
+.green {
+  color: black;
+  background-image: linear-gradient(to bottom right,
+  rgb(55, 145, 5), rgb(100, 200, 10), rgb(55, 145, 5));
+}
+
+.red {
+  background-image: linear-gradient(to bottom right,
+  rgb(180, 15, 20), rgb(230, 30, 30), rgb(180, 15, 20));
+}
+
+.centerQuestion {
+  justify-content: center;
+}
+
+.centerOption, .centerQuestion {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.input {
+  width: 315px;
+  height: 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  border: solid gray 1px;
+  border-radius: 5px;
+}
+
+.timerBackground {
+  background: lightgray;
+  width: 730px;
+  height: 20px;
+  margin: 6px 0 6px 0;
+  border-radius: 2px;
+}
+
+.timer {
+  opacity: 0.8;
+  height: 100%;
+  background: darkgreen;
+  border-radius: 2px 0 0 2px;
+}
+
+.star {
+  margin-left: 4px;
+  margin-right: 4px;
+}

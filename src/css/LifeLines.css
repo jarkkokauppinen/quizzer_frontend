@@ -1,0 +1,82 @@
+.lifeLines {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -18px;
+}
+
+.phoneCall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.statement {
+  position: absolute;
+  width: 150px;
+  margin-top: -30px;
+}
+
+.audienceParent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.audienceChild {
+  position: absolute;
+  display: flex;
+  margin-top: -123px;
+}
+
+.audienceBackground {
+  width: 180px;
+  height: 200px;
+  border-radius: 2px;
+  box-shadow: 0 0 20px lightgray;
+  background-image: linear-gradient(to bottom right, rgb(30, 30, 30),
+  rgb(30, 30, 60), rgb(40, 40, 80), rgb(30, 30, 60), rgb(30, 30, 30))
+}
+
+.bars {
+  display: flex;
+  transform: rotate(180deg);
+  margin-top: -30px;
+  height: 100%;
+}
+
+.bar {
+  width: 100%;
+  background-image: linear-gradient(to top right,
+  rgb(120, 0, 110), rgb(100, 130, 150));
+}
+
+#bar_A {
+  margin-right: 4px; 
+}
+
+#bar_B {
+  margin: 0 4px 0 2px;
+}
+
+#bar_C {
+  margin: 0 2px 0 4px;
+}
+
+#bar_D {
+  margin-left: 4px;
+}
+
+.letter {
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+.percent {
+  font-size: 12px;
+  margin-top: 155px;
+}
+
+.letter, .percent {
+  transform: rotate(180deg);
+  color: lightgray;
+}
