@@ -1,3 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Quiz
 
-Play [here](https://quizzer5000.herokuapp.com/)
+The questions come from a third-party API.<br>
+Highscores are made up with using Mongo database.
